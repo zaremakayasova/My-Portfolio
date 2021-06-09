@@ -1,0 +1,10 @@
+.Home {
+    background-color: #680d6e;
+    display: flex;
+    height: 630px;
+    padding-top: 100px;
+}
+
+.Home .Container h1 {
+    margin: 0;
+}
