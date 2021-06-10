@@ -7,23 +7,27 @@ body {
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 45px;
+  color: #ffffff;
 }
 
 h2 {
   font-weight: 700;
   font-size: 23px;
+  color: #ffffff;
 }
 
 p {
   font-weight: 500;
   font-size: 21px;
+  color: #ffffff;
 }
 
 a {
-  font-weight: 900;
-  font-size: 16;
+  font-weight: 600;
+  font-size: 17px;
+  color: #ffffff;
 }
 
 code {

@@ -1,6 +1,6 @@
 import classes from './Home.module.css';
-import girl from '../../assets/girl.svg';
-import code from '../../assets/code.svg';
+import main from '../../assets/main.svg';
+import icon from '../../assets/icon.svg';
 
 
 const Home = () => {
@@ -8,10 +8,10 @@ const Home = () => {
         <div className={classes.Home}>
             <div className={classes.Container}>
                 <h1 className={classes.Hello}>Hello, World</h1>
-                <h2 className={classes.Welcome}>Welcome to my website</h2>
+                <h1 className={classes.Welcome}>Welcome to my website</h1>
             </div>
-            <img className={classes.Code} src={code} alt='code-img' />
-            <img className={classes.Girl} src={girl} alt='girl-img' />
+            <img className={classes.Main} src={main} alt='main-img' />
+            <img className={classes.Icon} src={icon} alt='icon-img' />
         </div>
     );
 }

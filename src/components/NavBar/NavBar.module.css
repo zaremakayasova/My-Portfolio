@@ -1,5 +1,5 @@
 .NavBar {
-    background-color: #181818;
+    background-color: #343d52;
     width: 100%;
     height: 80px;
     position: fixed;
@@ -18,14 +18,13 @@
 
 .NavBar nav ul li {
     display: inline-block;
-    margin: 20px;
+    margin: 60px;
 }
 
 .NavBar nav ul li a {
     text-decoration: none;
-    color: #FFFFFF;
 }
 
 .NavBar a:hover {
-    border-bottom: 5px solid #F463FF;
+    color: #e57ee8;
 }

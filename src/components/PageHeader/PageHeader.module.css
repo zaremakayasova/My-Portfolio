@@ -1,0 +1,21 @@
+.Container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container hr {
+    position: absolute;
+    left: 0;
+    width: 124px;
+    border: 1px solid #e57ee8;
+}
+
+.Container h1 {
+    color: #e57ee8;
+}
+
+.Container h1:hover {
+    color: #ffffff;
+}

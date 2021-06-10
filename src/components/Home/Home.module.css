@@ -1,10 +1,32 @@
 .Home {
-    background-color: #680d6e;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(52, 61, 70, 1) 0%, rgba(229, 126, 232, 1) 100%);
     display: flex;
     height: 630px;
     padding-top: 100px;
+    position: relative;
+}
+
+.Home .Container {
+    position: absolute;
+    top: 20%;
+    left: 2%;
 }
 
 .Home .Container h1 {
     margin: 0;
 }
+
+.Home .Main {
+    position: absolute;
+    height: 90%;
+    left: 45%;
+    top: 5%;
+}
+
+.Home .Icon {
+    position: absolute;
+    height: 30%;
+    left: 3%;
+    top: 70%;
+}
+
