@@ -8,8 +8,9 @@
 .Container hr {
     position: absolute;
     left: 0;
-    width: 124px;
+    width: 150px;
     border: 1px solid #e57ee8;
+    background-color: #e57ee8;
 }
 
 .Container h1 {

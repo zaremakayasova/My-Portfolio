@@ -1,34 +1,37 @@
 import classes from './Skills.module.css';
 import PageHeader from '../PageHeader/PageHeader';
+import codeThinking from '../../assets/codeThinking.svg';
+
+const listTitleStyle = { fontWeight: 900, color: '#e57ee8', marginBottom: '5px' };
 
 const Skills = () => {
     const languages =
         <ul>
-            <li>LANGUAGES</li>
+            <li style={listTitleStyle}>LANGUAGES</li>
             <li>HTML5 - CSS3 - JavaScript</li>
         </ul>
 
     const librariesFrameworks =
         <ul>
-            <li>LIBRARIES AND FRAMEWORKS</li>
+            <li style={listTitleStyle}>LIBRARIES AND FRAMEWORKS</li>
             <li>Node.js - React.js - Redux- Bootstrap - Bulma -Express.js</li>
         </ul>
 
     const dataBase =
         <ul>
-            <li>DATABASE</li>
+            <li style={listTitleStyle}>DATABASE</li>
             <li>MongoDB - Mongoose - Firebase</li>
         </ul>
 
     const ide =
         <ul>
-            <li>IDE</li>
+            <li style={listTitleStyle}>IDE</li>
             <li>VSCode - Sublime Text3 - goormIDE</li>
         </ul>
 
     const otherSkills =
         <ul>
-            <li>OTHER</li>
+            <li style={listTitleStyle}>OTHER</li>
             <li>Git - GitHub - Json - Responsive Desing</li>
         </ul>
 
@@ -37,12 +40,13 @@ const Skills = () => {
     return (
         <div className={classes.Skills}>
             <PageHeader title={'What about the Skills?'} />
+            <p> I'm a lifelong learner and enjoy learning new stuff!</p>
             <p>
-                I'm a life long learner and enjoy learning new stuff!
                 Below are some programming languages, frameworks, libraries and toolkits I worked with and I like.
-                Some of them I control better than the other.
+                Some of them I control better than the others.
             </p>
             <div className={classes.Container}>
+                <img src={codeThinking} alt='code-thinking-img' />
                 {
                     totalSkills.map(skills => (
                         <div className={classes.List}>
