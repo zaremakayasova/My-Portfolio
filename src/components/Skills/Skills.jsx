@@ -32,7 +32,7 @@ const Skills = () => {
     const otherSkills =
         <ul>
             <li style={listTitleStyle}>OTHER</li>
-            <li>Git - GitHub - Json - Responsive Desing</li>
+            <li>Git - GitHub - Json - Responsive Design</li>
         </ul>
 
     const totalSkills = [languages, librariesFrameworks, dataBase, ide, otherSkills];

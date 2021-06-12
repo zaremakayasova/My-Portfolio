@@ -1,9 +1,12 @@
 .Skills {
-    background-color: #485063;
+    /* background-color: #485063; */
+
+    background: linear-gradient(90deg, rgba(229,126,232,1) 4%, rgba(52,61,70,1) 52%);
     padding-bottom: 4%;
 }
 
 .Skills p {
+    font-weight: 600;
     width: 50%;
     margin-left: 34%;
     padding-bottom: 1%;

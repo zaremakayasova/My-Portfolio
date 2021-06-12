@@ -1,5 +1,8 @@
 .Home {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(52, 61, 70, 1) 0%, rgba(229, 126, 232, 1) 100%);
+    /* background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(52, 61, 70, 1) 0%, rgba(229, 126, 232, 1) 100%); */
+
+    /* background: linear-gradient(180deg, rgba(52,61,70,1) 0%, rgba(229,126,232,1) 100%); */
+    background: linear-gradient(180deg, rgba(52,61,70,1) 18%, rgba(229,126,232,1) 100%);
     display: flex;
     height: 630px;
     padding-top: 100px;
@@ -8,7 +11,7 @@
 
 .Home .Container {
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 2%;
 }
 

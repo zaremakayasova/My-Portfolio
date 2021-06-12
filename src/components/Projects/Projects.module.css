@@ -1,3 +1,69 @@
 .Projects {
-    background-color: gray;
+    /* background: linear-gradient(90deg, rgba(229,126,232,1) 4%, rgba(52,61,70,1) 52%); */
+
+    /* background-color: #485063; */
+    background-color: #343d52;
+    padding-left: 200px;
+    padding-right: 155px;
+    padding-bottom: 20px;
+}
+
+.Projects .ProjectsContent {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.Projects .ProjectsContent {
+    box-shadow: 0px 0px 5px 1px #ffffff;
+    border-radius: 10px;
+}
+
+.Projects .ProjectsContent .Img {
+    padding-left: 20px;
+}
+
+.Projects .ProjectsContent .Container {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+    position: relative;
+}
+
+.Projects .ProjectsContent .Container .Link {
+    width: 15%;
+    position: absolute;
+    right: 40px;
+    top: 18px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 38px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: #e57ee8;
+    border-radius: 10px;
+}
+
+.Projects .ProjectsContent .Container .Link:hover {
+    background-color: #9867c5;
+}
+
+.Projects .ProjectsContent .Container .gitHubLink {
+    text-decoration: none;
+    color: #E39EE6;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.Projects .ProjectsContent .Container .gitHubLink:hover {
+    color: #ffffff;
+}
+
+.Projects .ProjectsContent .Container p {
+    font-size: 18px;
 }
