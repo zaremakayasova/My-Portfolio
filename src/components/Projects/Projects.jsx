@@ -6,7 +6,7 @@ import PageHeader from '../PageHeader/PageHeader';
 const Projects = () => {
 
     return (
-        <div className={classes.Projects}>
+        <div className={classes.Projects} id='projects'>
             <PageHeader title={'My Last Projects'} />
             {
                 projects.map(project => (

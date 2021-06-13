@@ -6,7 +6,7 @@ import icon from '../../assets/icon.svg';
 
 const Home = () => {
     return (
-        <div className={classes.Home}>
+        <div className={classes.Home} id='home'>
             <div className={classes.Container}>
                 <h1 className={classes.Name}>Hi! I am Zarema.</h1>
                 <Typewriter
