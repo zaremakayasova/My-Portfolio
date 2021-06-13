@@ -15,7 +15,7 @@ const About = () => {
                     <p>When I'm not coding, you can find me reading books, cooking, meditating, hiking and exploring nature with my husband.</p>
                 </div>
                 <div className={classes.Photo}>
-                    <img className={classes.Me} src={me} alt='my-photo' />
+                    <img className={classes.Me} src={me} alt='me' />
                 </div>
             </div>
         </div>

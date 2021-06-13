@@ -14,9 +14,9 @@ const Projects = () => {
                         <img className={classes.Img} key={project.id} src={project.image} alt='thumbnail' />
                         <div className={classes.Container}>
                             <h2>{project.title}</h2>
-                            <a className={classes.Link} href={project.liveUrl} target='_blank'>LIVE</a>
+                            <a className={classes.Link} href={project.liveUrl} target='_blank' rel='noreferrer' >LIVE</a>
                             <p>{project.description}</p>
-                            <a className={classes.gitHubLink} href={project.githubUrl} target='_blank'>{project.githubUrl}</a>
+                            <a className={classes.gitHubLink} href={project.githubUrl} target='_blank' rel='noreferrer'>{project.githubUrl}</a>
                         </div>
                     </div>
                 ))
