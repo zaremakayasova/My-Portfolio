@@ -2,7 +2,7 @@
     /* background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(52, 61, 70, 1) 0%, rgba(229, 126, 232, 1) 100%); */
 
     /* background: linear-gradient(180deg, rgba(52,61,70,1) 0%, rgba(229,126,232,1) 100%); */
-    background: linear-gradient(180deg, rgba(52,61,70,1) 18%, rgba(229,126,232,1) 100%);
+    background: linear-gradient(180deg, rgba(52, 61, 70, 1) 18%, rgba(229, 126, 232, 1) 100%);
     display: flex;
     height: 630px;
     padding-top: 100px;
@@ -10,13 +10,9 @@
 }
 
 .Home .Container {
-    position: absolute;
-    top: 35%;
-    left: 2%;
-}
+    padding-top: 5%;
+    padding-left: 5%;
 
-.Home .Container h1 {
-    margin: 0;
 }
 
 .Home .Main {
@@ -32,4 +28,3 @@
     left: 3%;
     top: 70%;
 }
-
