@@ -2,7 +2,7 @@ import classes from './Skills.module.css';
 import PageHeader from '../PageHeader/PageHeader';
 import codeThinking from '../../assets/codeThinking.svg';
 
-const listTitleStyle = { fontWeight: 900, color: '#e57ee8', marginBottom: '5px' };
+const listTitleStyle = { fontWeight: 900, color: '#2F2E41', marginBottom: '5px' };
 
 const Skills = () => {
     const languages =

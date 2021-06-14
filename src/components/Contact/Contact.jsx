@@ -3,6 +3,8 @@ import emailjs from 'emailjs-com';
 import classes from './Contact.module.css';
 import PageHeader from '../PageHeader/PageHeader';
 
+import FormInput from "../FormInput/FormInput";
+
 const Contact = () => {
     const handleUrl = url => {
         return () => window.open(url, '_blank')
@@ -23,32 +25,24 @@ const Contact = () => {
     return (
         <div className={classes.Contact} id='contact'>
             <PageHeader title={'Contact Me'} />
-            <div className={classes.Form}>
-                <form onSubmit={handleSubmit}>
-                    <input type='text' name='name' placeholder='name' />
-                    <label htmlFor='name'>Name *</label>
-
-                    <input type='email' name='email' placeholder='email' />
-                    <label htmlFor='email'>Email *</label>
-
-                    <input type='text' name='subject' placeholder='subject' />
-                    <label htmlFor='subject'>Subject *</label>
-
-                    <textarea name='message' placeholder='message' />
-                    <label htmlFor='message'>Message *</label>
-
-                    <button type='submit'>Send</button>
+            <div className={classes.FormContainer}>
+                <form className={classes.Form} onSubmit={handleSubmit}>
+                    <FormInput type='text' name='name' placeholder='name *' />
+                    <FormInput type='email' name='email' placeholder='email *' />
+                    <FormInput type='text' name='subject' placeholder='subject *' />
+                    <textarea name='message' placeholder='message *' required />
+                    <button className={classes.Btn} type='submit'>SEND</button>
                 </form>
             </div>
 
             <div className={classes.ContactIcons}>
-                <FaLinkedin color='#ffffff' size='30px' style={{ padding: '10px' }}
+                <FaLinkedin color='#ffffff' size='40px' style={{ margin: '25px' }}
                     onClick={handleUrl('https://www.linkedin.com/in/zarema-kayasova-83b033203/')}
                 />
-                <FaGithub color='#ffffff' size='30px' style={{ padding: '10px' }}
+                <FaGithub color='#ffffff' size='40px' style={{ margin: '25px' }}
                     onClick={handleUrl('https://github.com/zaremakayasova')}
                 />
-                <FaInstagramSquare color='#ffffff' size='30px' style={{ padding: '10px' }}
+                <FaInstagramSquare color='#ffffff' size='40px' style={{ margin: '25px' }}
                     onClick={handleUrl('https://www.instagram.com/zarema_kayasova_hekimgil/?hl=en')}
                 />
             </div>

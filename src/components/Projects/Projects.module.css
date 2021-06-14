@@ -1,10 +1,5 @@
 .Projects {
-    /* background: linear-gradient(90deg, rgba(229,126,232,1) 4%, rgba(52,61,70,1) 52%); */
-
-    /* background-color: #485063; */
     background-color: #343d52;
-    padding-left: 200px;
-    padding-right: 155px;
     padding-bottom: 20px;
 }
 
@@ -13,6 +8,8 @@
     align-items: center;
     height: 250px;
     margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 155px;
 }
 
 .Projects .ProjectsContent {
@@ -67,3 +64,5 @@
 .Projects .ProjectsContent .Container p {
     font-size: 18px;
 }
+
+

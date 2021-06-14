@@ -1,6 +1,5 @@
 .Contact {
-    background: linear-gradient(180deg, rgba(52, 61, 70, 1) 26%, rgba(229, 126, 232, 1) 100%);
-    height: 300px;
+    background: linear-gradient(180deg, rgba(52, 61, 82, 1) 0%, rgba(229, 126, 232, 1) 100%);
 }
 
 .Contact .ContactIcons {
@@ -13,4 +12,46 @@
     cursor: pointer;
 }
 
+.Contact .FormContainer {
+    display: flex;
+    justify-content: center;
+}
 
+.Contact .Form {
+    width: 40%;
+}
+
+.Contact .Form textarea {
+    font-family: "Quicksand", sans-serif;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    height: 90px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 12px;
+    box-shadow: 0 6px 6px -6px #ffffff;
+}
+
+.Contact .Form .Btn {
+    width: 25%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 38%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 38px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    background-color: #705070;
+}
+
+.Contact .Form .Btn:hover {
+    background-color: #343d52;
+}

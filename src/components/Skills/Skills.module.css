@@ -1,7 +1,6 @@
 .Skills {
-    /* background-color: #485063; */
-
-    background: linear-gradient(90deg, rgba(229,126,232,1) 4%, rgba(52,61,70,1) 52%);
+    /* background: linear-gradient(90deg, rgba(133,92,133,1) 0%, rgba(52,61,82,1) 100%); */
+    background: linear-gradient(90deg, rgba(229,126,232,1) 0%, rgba(52,61,82,1) 100%);
     padding-bottom: 4%;
 }
 
@@ -21,6 +20,7 @@
     display: flex;
     justify-content: center;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .Skills .Container {

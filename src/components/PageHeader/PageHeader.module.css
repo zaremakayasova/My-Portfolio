@@ -3,7 +3,9 @@
     position: relative;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
+
 
 .Container hr {
     position: absolute;
