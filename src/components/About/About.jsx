@@ -1,7 +1,7 @@
 import classes from './About.module.css';
 
 import PageHeader from '../PageHeader/PageHeader';
-import me from '../../assets/photo.jpeg';
+import me from '../../assets/photo.jpg';
 
 const About = () => {
     return (

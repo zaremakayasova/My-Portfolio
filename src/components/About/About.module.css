@@ -5,6 +5,7 @@
 
 .AboutMe .Container {
     display: flex;
+    flex-direction: row;
 }
 
 .AboutMe .Container .Text {
@@ -15,7 +16,7 @@
     margin-left: 10%;
 }
 
-.AboutMe .Container h2 {
+.AboutMe .Container .Text h2 {
     font-size: 36px;
 }
 
@@ -23,9 +24,32 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .AboutMe .Container .Photo .Me {
-    height: 500px;
+    height: 600px;
+    width: 400px;
+    /* width: 90%;
+    max-width: 500px; */
     border-radius: 10%;
+}
+
+@media (max-width: 1200px) {
+    .AboutMe .Container {
+        flex-direction: column;
+    }
+    .AboutMe .Container .Text {
+        width: 80%;
+    }
+    .AboutMe .Container .Photo {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .AboutMe .Container .Photo .Me {
+        height: 400px;
+        width: 500px;
+    }
+
+
 }

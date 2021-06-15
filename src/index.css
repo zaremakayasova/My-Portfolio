@@ -32,3 +32,16 @@ a {
   font-size: 17px;
   color: #ffffff;
 }
+
+@media (max-width: 1200px) {
+  a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+  }
+}

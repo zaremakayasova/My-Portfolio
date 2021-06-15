@@ -36,7 +36,7 @@ const Contact = () => {
             </div>
 
             <div className={classes.ContactIcons}>
-                <FaLinkedin color='#ffffff' size='40px' style={{ margin: '25px' }}
+                <FaLinkedin color='#ffffff' size='40px' style={{ margin: '25px' }} 
                     onClick={handleUrl('https://www.linkedin.com/in/zarema-kayasova-83b033203/')}
                 />
                 <FaGithub color='#ffffff' size='40px' style={{ margin: '25px' }}

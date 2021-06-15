@@ -6,7 +6,6 @@
     padding-top: 10px;
 }
 
-
 .Container hr {
     position: absolute;
     left: 0;
@@ -21,4 +20,10 @@
 
 .Container h1:hover {
     color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+    .Container hr {
+        width: 35px;
+    }
 }

@@ -1,6 +1,6 @@
 .Home {
     /* background: linear-gradient(180deg, rgba(52,61,82,1) 22%, rgba(133,92,133,1) 100%); */
-    background: linear-gradient(180deg, rgba(52,61,82,1) 0%, rgba(229,126,232,1) 100%);
+    background: linear-gradient(180deg, rgba(52, 61, 82, 1) 0%, rgba(229, 126, 232, 1) 100%);
     display: flex;
     height: 630px;
     padding-top: 100px;
@@ -12,28 +12,31 @@
     padding-left: 5%;
     position: relative;
 }
-
+/* 
 .Home .Container h1 {
     color: #e57ee8;
+    font-weight: 900;
     position: absolute;
     z-index: 999;
-    left: 800px;
-}
+
+} */
 
 .Home .Main {
     position: absolute;
-    height: 100%;
+    /* height: 80%;
     width: 100%;
-    /* left: 45%;
-    top: 5%; */
-    top: -3%;
+    top: 12%;
+    left: 10%; */
+    height: 100%;
+    top: -5%;
+    left: 35%;
 }
 
 .Home a {
-    position:absolute;
+    position: absolute;
     top: 90%;
-     left: 50%;
-     width: 20px;
+    left: 50%;
+    width: 20px;
 }
 
 .Home .Icon {
@@ -41,4 +44,19 @@
     height: 30%;
     left: 3%;
     top: 70%;
+}
+
+@media (max-width: 1200px) {
+    .Home {
+        padding-top: 60px;
+        position: relative;
+    }
+    .Home .Container {
+        padding-top: unset;
+    }
+    .Home .Main {
+        width: 100%;
+        top: 5%;
+        left: -3%;
+    }
 }

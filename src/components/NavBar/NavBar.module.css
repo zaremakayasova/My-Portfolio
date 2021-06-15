@@ -28,3 +28,15 @@
 .NavBar a:hover {
     color: #e57ee8;
 }
+
+@media (max-width: 1200px) {
+    .NavBar {
+        height: 80px;
+        position: unset;
+        justify-content: start;
+    }
+    .NavBar nav ul li {
+        margin: 5px;
+    }
+ 
+}

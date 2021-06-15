@@ -47,6 +47,7 @@
 
 .Projects .ProjectsContent .Container .Link:hover {
     background-color: #9867c5;
+    transform: scale(1.1);
 }
 
 .Projects .ProjectsContent .Container .gitHubLink {
