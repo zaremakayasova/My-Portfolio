@@ -5,14 +5,12 @@
 
 .Projects .ProjectsContent {
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 250px;
     margin-bottom: 30px;
     margin-left: 200px;
     margin-right: 155px;
-}
-
-.Projects .ProjectsContent {
     box-shadow: 0px 0px 5px 1px #ffffff;
     border-radius: 10px;
 }
@@ -66,4 +64,40 @@
     font-size: 18px;
 }
 
-
+@media (max-width: 1200px) {
+    .Projects .ProjectsContent .Img {
+        width: 95%;
+        padding-left: unset;
+        padding-top: 5%;
+    }
+    .Projects .ProjectsContent {
+        flex-direction: column;
+        width: 85%;
+        height: 450px;
+        margin-bottom: 8%;
+        margin-left: 4%;
+        padding: 1%;
+        box-shadow: 0px 0px 5px 1px #ffffff;
+        border-radius: 10px;
+    }
+    .Projects .ProjectsContent .Container {
+        width: 90%;
+        padding-left: 1px;
+    }
+    .Projects .ProjectsContent .Container .Link {
+        width: 18%;
+        position: absolute;
+        right: 5%;
+        top: 22%;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .Projects .ProjectsContent .Container p {
+        margin-top: 10%;
+    }
+    .Projects .ProjectsContent .Container .gitHubLink {
+        font-size: 14px;
+    }
+}

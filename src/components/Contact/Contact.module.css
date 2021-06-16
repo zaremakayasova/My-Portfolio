@@ -56,3 +56,12 @@
     background-color: #343d52;
     transform: scale(1.1);
 }
+
+@media (max-width: 1200px) {
+    .Contact .Form {
+        width: 70%;
+    }
+    .Contact .Form .Btn {
+        margin-bottom: 50px;
+    }
+}

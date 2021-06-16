@@ -20,7 +20,7 @@
     font-size: 36px;
 }
 
-.AboutMe .Container .Photo{
+.AboutMe .Container .Photo {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -30,12 +30,13 @@
 .AboutMe .Container .Photo .Me {
     height: 600px;
     width: 400px;
-    /* width: 90%;
-    max-width: 500px; */
     border-radius: 10%;
 }
 
 @media (max-width: 1200px) {
+    .AboutMe {
+        padding-bottom: 8%;
+    }
     .AboutMe .Container {
         flex-direction: column;
     }
@@ -50,6 +51,7 @@
         height: 400px;
         width: 500px;
     }
-
-
+    .AboutMe .Container .Text h2 {
+        font-size: 28px;
+    }
 }

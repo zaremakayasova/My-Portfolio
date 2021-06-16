@@ -24,7 +24,7 @@ const Contact = () => {
 
     return (
         <div className={classes.Contact} id='contact'>
-            <PageHeader title={'Contact Me'} />
+            <PageHeader title={'CONTACT ME'} />
             <div className={classes.FormContainer}>
                 <form className={classes.Form} onSubmit={handleSubmit}>
                     <FormInput type='text' name='name' placeholder='name *' />
@@ -36,7 +36,7 @@ const Contact = () => {
             </div>
 
             <div className={classes.ContactIcons}>
-                <FaLinkedin color='#ffffff' size='40px' style={{ margin: '25px' }} 
+                <FaLinkedin color='#ffffff' size='40px' style={{ margin: '25px' }}
                     onClick={handleUrl('https://www.linkedin.com/in/zarema-kayasova-83b033203/')}
                 />
                 <FaGithub color='#ffffff' size='40px' style={{ margin: '25px' }}

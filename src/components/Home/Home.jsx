@@ -15,16 +15,16 @@ const Home = () => {
                             .pauseFor(1000)
                             .deleteAll()
                             .typeString('<h1>JUNIOR WEB DEVELOPER</h1>')
-                            // .pauseFor(1000)
-                            // .deleteAll()
-                            // .typeString('<h1>JUNIOR WEB DEVELOPER</h1>')
+                            .pauseFor(1000)
+                            .deleteAll()
+                            .typeString('<h1>JUNIOR WEB DEVELOPER</h1>')
                             .start();
                     }}
                 />
             </div>
             <FaAngleDoubleDown color='#ffffff' size='40px' style={{ position: 'absolute', top: '90%', left: '50%' }} />
             <img className={classes.Main} src={main} alt='main-img' />
-            {/* <img className={classes.Icon} src={icon} alt='icon-img' /> */}
+            <img className={classes.Icon} src={icon} alt='icon-img' />
         </div>
     );
 }

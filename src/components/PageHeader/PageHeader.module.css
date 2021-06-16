@@ -3,7 +3,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .Container hr {
@@ -15,7 +15,7 @@
 }
 
 .Container h1 {
-    color: #e57ee8;
+    text-align: center;
 }
 
 .Container h1:hover {
@@ -24,6 +24,9 @@
 
 @media (max-width: 1200px) {
     .Container hr {
-        width: 35px;
+        width: 20px;
+    }
+    .Container {
+        padding-bottom: 20px;
     }
 }

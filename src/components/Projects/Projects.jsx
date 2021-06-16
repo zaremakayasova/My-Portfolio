@@ -7,7 +7,7 @@ const Projects = () => {
 
     return (
         <div className={classes.Projects} id='projects'>
-            <PageHeader title={'My Last Projects'} />
+            <PageHeader title={'MY LAST PROJECTS'} />
             {
                 projects.map(project => (
                     <div key={project.id} className={classes.ProjectsContent}>
@@ -16,7 +16,9 @@ const Projects = () => {
                             <h2>{project.title}</h2>
                             <a className={classes.Link} href={project.liveUrl} target='_blank' rel='noreferrer' >LIVE</a>
                             <p>{project.description}</p>
-                            <a className={classes.gitHubLink} href={project.githubUrl} target='_blank' rel='noreferrer'>{project.githubUrl}</a>
+                            <div>
+                            <a  className={classes.gitHubLink} href={project.githubUrl} target='_blank' rel='noreferrer'>{project.githubUrl}</a>
+                            </div>
                         </div>
                     </div>
                 ))

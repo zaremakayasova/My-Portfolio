@@ -1,6 +1,6 @@
 .Home {
-    /* background: linear-gradient(180deg, rgba(52,61,82,1) 22%, rgba(133,92,133,1) 100%); */
     background: linear-gradient(180deg, rgba(52, 61, 82, 1) 0%, rgba(229, 126, 232, 1) 100%);
+    /* background-color: #74cdc0; */
     display: flex;
     height: 630px;
     padding-top: 100px;
@@ -12,21 +12,9 @@
     padding-left: 5%;
     position: relative;
 }
-/* 
-.Home .Container h1 {
-    color: #e57ee8;
-    font-weight: 900;
-    position: absolute;
-    z-index: 999;
-
-} */
 
 .Home .Main {
     position: absolute;
-    /* height: 80%;
-    width: 100%;
-    top: 12%;
-    left: 10%; */
     height: 100%;
     top: -5%;
     left: 35%;

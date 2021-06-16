@@ -34,9 +34,9 @@
         height: 80px;
         position: unset;
         justify-content: start;
+        padding-left: 3%;
     }
     .NavBar nav ul li {
         margin: 5px;
     }
- 
 }
