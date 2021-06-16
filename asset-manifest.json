@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.bc03d6d6.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.cca388c7.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.cca388c7.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.89aeecd1.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.89aeecd1.js.map",
+    "static/js/2.c8192b00.chunk.js": "/My-Portfolio/static/js/2.c8192b00.chunk.js",
+    "static/js/2.c8192b00.chunk.js.map": "/My-Portfolio/static/js/2.c8192b00.chunk.js.map",
+    "static/js/3.a5b4d7c6.chunk.js": "/My-Portfolio/static/js/3.a5b4d7c6.chunk.js",
+    "static/js/3.a5b4d7c6.chunk.js.map": "/My-Portfolio/static/js/3.a5b4d7c6.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "static/css/main.bc03d6d6.chunk.css.map": "/My-Portfolio/static/css/main.bc03d6d6.chunk.css.map",
+    "static/js/2.c8192b00.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.c8192b00.chunk.js.LICENSE.txt",
+    "static/media/bookstore.2caf7835.png": "/My-Portfolio/static/media/bookstore.2caf7835.png",
+    "static/media/codeThinking.39993614.svg": "/My-Portfolio/static/media/codeThinking.39993614.svg",
+    "static/media/crwn-clothing.402bfba9.png": "/My-Portfolio/static/media/crwn-clothing.402bfba9.png",
+    "static/media/hatchways.3e4c05d0.png": "/My-Portfolio/static/media/hatchways.3e4c05d0.png",
+    "static/media/icon.db200009.svg": "/My-Portfolio/static/media/icon.db200009.svg",
+    "static/media/main3.340a635e.svg": "/My-Portfolio/static/media/main3.340a635e.svg",
+    "static/media/photo.92306905.jpg": "/My-Portfolio/static/media/photo.92306905.jpg",
+    "static/media/utopia-camps.1d1353b3.png": "/My-Portfolio/static/media/utopia-camps.1d1353b3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89aeecd1.js",
+    "static/js/2.c8192b00.chunk.js",
+    "static/css/main.bc03d6d6.chunk.css",
+    "static/js/main.cca388c7.chunk.js"
+  ]
+}
