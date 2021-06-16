@@ -4,7 +4,7 @@ This is my portfolio website. It contains information about me, my skill sets, h
 
 ## Live Demo
 
-The application is hosted on netlify and can be accessed at the following web address: [https://adoring-chandrasekhar-1b2f83.netlify.app/#contact](https://adoring-chandrasekhar-1b2f83.netlify.app/#contact)
+The application is hosted on netlify and can be accessed at the following web address: [https://adoring-chandrasekhar-1b2f83.netlify.app/](https://adoring-chandrasekhar-1b2f83.netlify.app/)
 
 
 ## Tech Stack
