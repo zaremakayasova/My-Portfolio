@@ -40,7 +40,7 @@ const Skills = () => {
     return (
         <div className={classes.Skills} id='skills'>
             <PageHeader title={'WHAT ABOUT THE SKILLS?'} />
-            <p> I'm a lifelong learner and enjoy learning new stuff!</p>
+            <p> I'm a lifelong learner and I enjoy learning new technologies!</p>
             <p>
                 Below are some programming languages, frameworks, libraries and toolkits I worked with and I like.
                 Some of them I control better than the others.

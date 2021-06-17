@@ -29,7 +29,8 @@
 
 .AboutMe .Container .Photo .Me {
     height: 600px;
-    width: 400px;
+    /* width: 400px; */
+    width: 60%;
     border-radius: 10%;
 }
 
@@ -44,12 +45,10 @@
         width: 80%;
     }
     .AboutMe .Container .Photo {
-        width: 70%;
-        margin-left: 10%;
+        width: 50%;
     }
     .AboutMe .Container .Photo .Me {
         height: 400px;
-        width: 500px;
     }
     .AboutMe .Container .Text h2 {
         font-size: 28px;

@@ -29,14 +29,14 @@ p {
 
 a {
   font-weight: 700;
-  font-size: 17px;
+  font-size: 18px;
   color: #ffffff;
 }
 
 @media (max-width: 1200px) {
   a {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
   }
   h1 {
