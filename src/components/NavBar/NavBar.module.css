@@ -31,10 +31,10 @@
 
 @media (max-width: 1200px) {
     .NavBar {
-        height: 80px;
+        width: 97%;
+        padding-left: 3%;
         position: unset;
         justify-content: start;
-        padding-left: 3%;
     }
     .NavBar nav ul li {
         margin: 5px;

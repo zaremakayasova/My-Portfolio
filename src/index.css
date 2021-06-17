@@ -44,7 +44,8 @@ a {
     font-size: 35px;
     color: #ffffff;
   }
-  html {
-    padding: 0;
+  html,
+  body {
+    overflow-x: hidden;
   }
 }
