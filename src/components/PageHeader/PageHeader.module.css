@@ -18,9 +18,6 @@
     text-align: center;
 }
 
-.Container h1:hover {
-    color: #ffffff;
-}
 
 @media (max-width: 1200px) {
     .Container hr {

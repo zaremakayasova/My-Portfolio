@@ -49,11 +49,13 @@
     line-height: 38px;
     color: #ffffff;
     letter-spacing: 2px;
-    background-color: #705070;
+    background: linear-gradient(90deg, rgba(229,126,232,1) 0%, rgba(82,52,64,1) 55%);
+
+    background: linear-gradient(180deg, rgba(229,126,232,1) 0%, rgba(15,5,0,1) 64%);
 }
 
 .Contact .Form .Btn:hover {
-    background-color: #343d52;
+    background: linear-gradient(180deg, rgba(15,5,0,1) 21%, rgba(229,126,232,1) 100%);
     transform: scale(1.1);
 }
 

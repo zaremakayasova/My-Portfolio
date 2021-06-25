@@ -1,7 +1,7 @@
 .NavBar {
     background-color: #343d52;
     width: 100%;
-    height: 80px;
+    height: 85px;
     position: fixed;
     z-index: 999;
     opacity: 0.9;
@@ -23,10 +23,13 @@
 
 .NavBar nav ul li a {
     text-decoration: none;
+    padding: 3px;
 }
 
-.NavBar a:hover {
-    color: #e57ee8;
+.NavBar nav ul li a:hover {
+    box-shadow: 0 0 4px rgba(255, 255, 255, 1), 0 0 7px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1),
+        0 0 0 13px rgba(255, 255, 255, 0.05), 0 0 0 16px rgba(255, 255, 255, 0.05), 0 0 0 19px rgba(255, 255, 255, 0.05),
+        0 0 0 25px rgba(255, 255, 255, 0.05), 0 0 0 30px rgba(255, 255, 255, 0.05);
 }
 
 @media (max-width: 1200px) {
