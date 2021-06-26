@@ -1,6 +1,8 @@
 .AboutMe {
     background-color: #343d52;
     padding-bottom: 3%;
+    height: 700px;
+    cursor: pointer;
 }
 
 .AboutMe .Container {
@@ -11,32 +13,95 @@
 .AboutMe .Container .Text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 47%;
+    margin-top: 5%;
     margin-left: 10%;
 }
 
-.AboutMe .Container .Text h2 {
+.AboutMe .Container h2 {
     font-size: 36px;
+    color: #e57ee8;
 }
 
 .AboutMe .Container .Photo {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 160%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    transform-style: preserve-3d;
+    perspective: 650px;
+    transition: 0.5s;
 }
 
 .AboutMe .Container .Photo .Me {
-    height: 600px;
-    /* width: 400px; */
-    width: 60%;
-    border-radius: 10%;
+    height: 550px;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.AboutMe .Container .Photo .Front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.AboutMe .Container .Photo:hover .Front {
+    transform: rotateX(-180deg);
+}
+
+.AboutMe .Container .Photo .Back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #575988;
+    border-radius: 5%;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.7s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.AboutMe .Container .Photo .Back:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(229, 126, 232, 0.3);
+}
+
+.AboutMe .Container .Photo:hover .Back {
+    transform: rotateX(0deg);
+}
+
+.AboutMe .Container .Photo .Back .MyPic {
+    border-radius: 50%;
+    width: 80px;
+    border: 2px solid white;
 }
 
 @media (max-width: 1200px) {
     .AboutMe {
         padding-bottom: 8%;
+        height: 1000px;
     }
     .AboutMe .Container {
         flex-direction: column;
@@ -44,13 +109,23 @@
     .AboutMe .Container .Text {
         width: 80%;
     }
-    .AboutMe .Container .Photo {
+    /* .AboutMe .Container .Photo {
         width: 100%;
-    }
+    } */
     .AboutMe .Container .Photo .Me {
-        height: 400px;
+        width: 100%;
+        height: 100%;
     }
     .AboutMe .Container .Text h2 {
         font-size: 28px;
     }
+
+    .AboutMe .Container .Photo {
+        top: 215%;
+        left: 50%;
+        width: 300px;
+        height: 400px;
+    }
 }
+
+

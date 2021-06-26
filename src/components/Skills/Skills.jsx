@@ -48,8 +48,8 @@ const Skills = () => {
             <div className={classes.Container}>
                 <img src={codeThinking} alt='code-thinking-img' />
                 {
-                    totalSkills.map(skills => (
-                        <div className={classes.List}>
+                    totalSkills.map((skills, index) => (
+                        <div className={classes.List} key={`skills_${index}`}>
                             {skills}
                         </div>
                     ))

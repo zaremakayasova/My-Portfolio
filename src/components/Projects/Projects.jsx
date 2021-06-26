@@ -17,7 +17,7 @@ const Projects = () => {
                             <a className={classes.Link} href={project.liveUrl} target='_blank' rel='noreferrer' >LIVE</a>
                             <p>{project.description}</p>
                             <div>
-                            <a  className={classes.gitHubLink} href={project.githubUrl} target='_blank' rel='noreferrer'>{project.githubUrl}</a>
+                                <a className={classes.gitHubLink} href={project.githubUrl} target='_blank' rel='noreferrer'>{project.githubUrl}</a>
                             </div>
                         </div>
                     </div>

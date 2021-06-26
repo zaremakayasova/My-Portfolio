@@ -5,20 +5,16 @@ import icon from '../../assets/icon.svg';
 import { FaAngleDoubleDown } from "react-icons/fa";
 
 const Home = () => {
+
     return (
         <div className={classes.Home} id='home'>
             <div className={classes.Container}>
-                <h1 className={classes.Name}>HI! I AM ZAREMA.</h1> 
+                <h1 className={classes.Name}>HI! I AM ZAREMA.</h1>
                 <Typewriter
-                    onInit={(typewriter) => {
-                        typewriter.typeString('<h1>JUNIOR WEB DEVELOPER</h1>')
-                            .pauseFor(1000)
-                            .deleteAll()
-                            .typeString('<h1>JUNIOR WEB DEVELOPER</h1>')
-                            .pauseFor(1000)
-                            .deleteAll()
-                            .typeString('<h1>JUNIOR WEB DEVELOPER</h1>')
-                            .start();
+                    options={{
+                        strings: ['<h1>JUNIOR WEB DEVELOPER</h1>'],
+                        autoStart: true,
+                        loop: true
                     }}
                 />
             </div>
