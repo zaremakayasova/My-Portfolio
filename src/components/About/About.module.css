@@ -18,6 +18,13 @@
     margin-left: 10%;
 }
 
+.AboutMe .Container .Text ul {
+    list-style: none;
+    font-weight: 500;
+    font-size: 21px;
+    color: #e57ee8;
+}
+
 .AboutMe .Container h2 {
     font-size: 36px;
     color: #e57ee8;
@@ -125,9 +132,3 @@
         height: 400px;
     }
 }
-
-/* @media (min-width: 710px) {
-    .AboutMe .Container .Photo {
-        transform: translate(-81%, 24%);
-    }
-} */

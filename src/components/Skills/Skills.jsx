@@ -1,6 +1,7 @@
 import classes from './Skills.module.css';
 import PageHeader from '../PageHeader/PageHeader';
 import codeThinking from '../../assets/codeThinking.svg';
+import { FaTools } from 'react-icons/fa';
 
 const listTitleStyle = { fontWeight: 900, color: '#2F2E41', marginBottom: '5px' };
 
@@ -39,7 +40,7 @@ const Skills = () => {
 
     return (
         <div className={classes.Skills} id='skills'>
-            <PageHeader title={'WHAT ABOUT THE SKILLS?'} />
+            <PageHeader title={'WHAT ABOUT THE SKILLS?'} icon={<FaTools size='5%' />} />
             <p> I'm a lifelong learner and I enjoy learning new technologies!</p>
             <p>
                 Below are some programming languages, frameworks, libraries and toolkits I worked with and I like.

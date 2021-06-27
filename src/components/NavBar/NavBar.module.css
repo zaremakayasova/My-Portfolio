@@ -18,7 +18,7 @@
 
 .NavBar nav ul li {
     display: inline-block;
-    margin: 60px;
+    margin: 70px;
 }
 
 .NavBar nav ul li a {
@@ -32,6 +32,17 @@
         0 0 0 25px rgba(255, 255, 255, 0.05), 0 0 0 30px rgba(255, 255, 255, 0.05);
 }
 
+.NavBar nav ul li .GitHubBtn {
+    width: 200%;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(202, 96, 206);
+}
+
+.NavBar nav ul li .GitHubBtn:hover {
+    background-color: rgb(173, 68, 177);
+}
+
 @media (max-width: 1200px) {
     .NavBar {
         width: 97%;
@@ -40,11 +51,15 @@
         justify-content: start;
     }
     .NavBar nav ul li {
-        margin: 5px;
+        margin: 8px;
+    }
+    .NavBar nav ul li .GitHubBtn {
+        width: 150%;
     }
     .NavBar nav ul li a:hover {
         box-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 4px rgba(255, 255, 255, 1), 0 0 6px rgba(255, 255, 255, 1),
-            0 0 0 8px rgba(255, 255, 255, 0.05), 0 0 0 10px rgba(255, 255, 255, 0.05), 0 0 0 12px rgba(255, 255, 255, 0.05),
-            0 0 0 14px rgba(255, 255, 255, 0.05), 0 0 0 16px rgba(255, 255, 255, 0.05);
+            0 0 0 8px rgba(255, 255, 255, 0.05), 0 0 0 10px rgba(255, 255, 255, 0.05),
+            0 0 0 12px rgba(255, 255, 255, 0.05), 0 0 0 14px rgba(255, 255, 255, 0.05),
+            0 0 0 16px rgba(255, 255, 255, 0.05);
     }
 }

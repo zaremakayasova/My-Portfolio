@@ -1,5 +1,5 @@
 import classes from './About.module.css';
-import { FaInstagramSquare, FaLinkedin, FaGithub, FaAngleDoubleDown } from "react-icons/fa";
+import { FaInstagramSquare, FaLinkedin, FaGithub, FaAngleDoubleDown, FaHandPointRight, FaUserAlt } from "react-icons/fa";
 
 
 import PageHeader from '../PageHeader/PageHeader';
@@ -11,13 +11,31 @@ const About = () => {
     };
     return (
         <div className={classes.AboutMe} id='about'>
-            <PageHeader title={'ABOUT ME'} />
+            <PageHeader title={'ABOUT ME'} icon={<FaUserAlt size='6%' />} />
             <div className={classes.Container}>
                 <div className={classes.Text}>
                     <h2>Hello! I am Zarema.</h2>
                     <p>I am a passionate self-taught junior web developer currently based in North Bay, Ontario. I specialize in building user-friendly, modern, and semantic websites that are highly intuitive and responsive.
                     </p>
-                    <p>When I'm not coding, you can find me reading books, cooking, meditating, hiking and exploring nature with my husband.</p>
+                    <p>When I'm not coding, you can find me: </p>
+                    <ul>
+                        <li>
+                            <FaHandPointRight color='#fff' style={{ marginRight: '2%' }} />
+                            reading books,
+                        </li>
+                        <li>
+                            <FaHandPointRight color='#fff' style={{ marginRight: '2%' }} />
+                            cooking,
+                        </li>
+                        <li>
+                            <FaHandPointRight color='#fff' style={{ marginRight: '2%' }} />
+                            meditating,
+                        </li>
+                        <li>
+                            <FaHandPointRight color='#fff' style={{ marginRight: '2%' }} />
+                            hiking and exploring nature with my husband.
+                        </li>
+                    </ul>
                 </div>
                 <div className={classes.Photo}>
                     <div className={classes.Front}>

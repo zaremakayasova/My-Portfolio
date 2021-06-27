@@ -1,4 +1,4 @@
-import { FaInstagramSquare, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaInstagramSquare, FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
 import emailjs from 'emailjs-com';
 import classes from './Contact.module.css';
 import PageHeader from '../PageHeader/PageHeader';
@@ -25,7 +25,7 @@ const Contact = () => {
 
     return (
         <div className={classes.Contact} id='contact'>
-            <PageHeader title={'CONTACT ME'} />
+            <PageHeader title={'CONTACT ME'} icon={<FaMailBulk size='6%' />} />
             <div className={classes.FormContainer}>
                 <form className={classes.Form} onSubmit={handleSubmit}>
                     <FormInput type='text' name='name' placeholder='name *' />

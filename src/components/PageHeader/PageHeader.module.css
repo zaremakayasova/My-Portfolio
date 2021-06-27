@@ -18,6 +18,10 @@
     text-align: center;
 }
 
+.Container span {
+    margin-right: 10px;
+}
+
 
 @media (max-width: 1200px) {
     .Container hr {

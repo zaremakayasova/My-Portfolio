@@ -1,5 +1,6 @@
 import classes from './Projects.module.css';
 import projects from './utils';
+import { FaProjectDiagram } from 'react-icons/fa';
 
 import PageHeader from '../PageHeader/PageHeader';
 
@@ -7,7 +8,7 @@ const Projects = () => {
 
     return (
         <div className={classes.Projects} id='projects'>
-            <PageHeader title={'MY LAST PROJECTS'} />
+            <PageHeader title={'MY RECENT PROJECTS'} icon={<FaProjectDiagram size='6%' />} />
             {
                 projects.map(project => (
                     <div key={project.id} className={classes.ProjectsContent}>
