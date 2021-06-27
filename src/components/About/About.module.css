@@ -69,7 +69,7 @@
     border-radius: 5%;
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    transition: 0.7s;
+    transition: 0.5s;
 
     display: flex;
     flex-direction: column;
@@ -109,23 +109,25 @@
     .AboutMe .Container .Text {
         width: 80%;
     }
-    /* .AboutMe .Container .Photo {
-        width: 100%;
-    } */
     .AboutMe .Container .Photo .Me {
         width: 100%;
         height: 100%;
     }
-    .AboutMe .Container .Text h2 {
+    .AboutMe .Container h2 {
         font-size: 28px;
     }
-
+    .AboutMe .Container .Photo .Back .MyPic {
+        width: 50px;
+    }
     .AboutMe .Container .Photo {
-        top: 215%;
-        left: 50%;
+        transform: translate(-81%, 82%);
         width: 300px;
         height: 400px;
     }
 }
 
-
+/* @media (min-width: 710px) {
+    .AboutMe .Container .Photo {
+        transform: translate(-81%, 24%);
+    }
+} */

@@ -2,7 +2,6 @@ import classes from './Home.module.css';
 import Typewriter from 'typewriter-effect';
 import main from '../../assets/main3.svg';
 import icon from '../../assets/icon.svg';
-import { FaAngleDoubleDown } from "react-icons/fa";
 
 const Home = () => {
 
@@ -18,7 +17,7 @@ const Home = () => {
                     }}
                 />
             </div>
-            <FaAngleDoubleDown color='#ffffff' size='40px' style={{ position: 'absolute', top: '90%', left: '50%' }} />
+            
             <img className={classes.Main} src={main} alt='main-img' />
             <img className={classes.Icon} src={icon} alt='icon-img' />
         </div>
