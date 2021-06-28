@@ -12,37 +12,35 @@ html {
 h1 {
   font-weight: 900;
   font-size: 45px;
-  color: #ffffff;
+  color: #fdf1f2;
 }
 
 h2 {
   font-weight: 700;
   font-size: 25px;
-  color: #ffffff;
+  color: #fbe3e5;
 }
 
 p {
   font-weight: 500;
   font-size: 21px;
-  color: #ffffff;
+  color: #fbe3e5;
 }
 
 a {
   font-weight: 700;
   font-size: 18px;
-  color: #ffffff;
+  color: #f5babf;
 }
 
 @media (max-width: 1200px) {
   a {
     font-weight: 500;
     font-size: 16px;
-    color: #ffffff;
   }
   h1 {
     font-weight: 700;
     font-size: 30px;
-    color: #ffffff;
   }
   html,
   body {

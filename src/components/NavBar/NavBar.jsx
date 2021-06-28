@@ -41,7 +41,7 @@ const NavBar = () => {
                     </li>
                     <li>
                         <button onClick={handleUrl('https://github.com/zaremakayasova/My-Portfolio')} className={classes.GitHubBtn}>
-                            <FaGitAlt size='25px' color='white' style={{ paddingLeft: '5%', paddingRight: '5%', paddingTop: '5%' }} />
+                            <FaGitAlt size='25px' color='#fbe3e5' style={{ paddingLeft: '5%', paddingRight: '5%', paddingTop: '5%' }} />
                         </button>
                     </li>
                 </ul>

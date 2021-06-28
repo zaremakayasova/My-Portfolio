@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     width: 47%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 10%;
 }
 
@@ -108,7 +108,7 @@
 @media (max-width: 1200px) {
     .AboutMe {
         padding-bottom: 8%;
-        height: 1000px;
+        height: 1100px;
     }
     .AboutMe .Container {
         flex-direction: column;
@@ -127,7 +127,7 @@
         width: 50px;
     }
     .AboutMe .Container .Photo {
-        transform: translate(-81%, 82%);
+        transform: translate(-81%, 45%);
         width: 300px;
         height: 400px;
     }

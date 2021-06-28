@@ -1,27 +1,40 @@
 .Contact {
     background: linear-gradient(180deg, rgba(52, 61, 82, 1) 0%, rgba(229, 126, 232, 1) 100%);
+    padding-bottom: 50px;
 }
 
-.Contact .ContactIcons {
-    width: 100%;
+.Contact .ContactContainer {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.Contact .ContactIcons svg path {
-    cursor: pointer;
+.Contact .ContactContainer h2 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #e57ee8;
+    text-transform: uppercase;
 }
 
-.Contact .FormContainer {
+.Contact .ContactContainer hr {
+    margin-top: 0.1%;
+    width: 100px;
+    border: 1px solid #e57ee8;
+    background-color: #e57ee8;
+}
+
+.Contact .ContactContainer .FormContainer {
+    width: 50%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.Contact .Form {
-    width: 40%;
+.Contact .ContactContainer .FormContainer .Form {
+    width: 70%;
 }
 
-.Contact .Form textarea {
+.Contact .ContactContainer .FormContainer .Form textarea {
     font-family: "Quicksand", sans-serif;
     width: 100%;
     border: none;
@@ -35,10 +48,9 @@
     box-shadow: 0 6px 6px -6px #ffffff;
 }
 
-.Contact .Form .Btn {
+.Contact .ContactContainer .FormContainer .Form .Btn {
     width: 30%;
     margin-top: 25px;
-    margin-bottom: 15px;
     margin-left: 35%;
     border: none;
     border-radius: 10px;
@@ -49,21 +61,85 @@
     line-height: 38px;
     color: #ffffff;
     letter-spacing: 2px;
-    background: linear-gradient(90deg, rgba(229,126,232,1) 0%, rgba(82,52,64,1) 55%);
-
-    background: linear-gradient(180deg, rgba(229,126,232,1) 0%, rgba(15,5,0,1) 64%);
+    background: linear-gradient(180deg, rgba(229, 126, 232, 1) 0%, rgba(15, 5, 0, 1) 64%);
 }
 
-.Contact .Form .Btn:hover {
-    background: linear-gradient(180deg, rgba(15,5,0,1) 21%, rgba(229,126,232,1) 100%);
+.Contact .ContactContainer .FormContainer .Form .Btn:hover {
+    background: linear-gradient(180deg, rgba(15, 5, 0, 1) 21%, rgba(229, 126, 232, 1) 100%);
     transform: scale(1.1);
 }
 
+.Contact .ContactContainer .Text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact .ContactContainer .Message {
+    width: 80%;
+    line-height: 45px;
+}
+
+.Contact .ContactContainer .Message .Wave {
+    margin-left: 1%;
+    font-size: 30px;
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 @media (max-width: 1200px) {
-    .Contact .Form {
-        width: 70%;
+    .Contact .ContactContainer {
+        flex-direction: column;
+    } 
+    .Contact .ContactContainer h2 {
+        font-weight: 500;
+        font-size: 25px;
     }
-    .Contact .Form .Btn {
-        margin-bottom: 50px;
+    .Contact .ContactContainer hr {
+        width: 70px;
+        border: 0.5px solid #e57ee8;
     }
+    .Contact .ContactContainer .FormContainer {
+        width: 100%;
+    }
+    .Contact .ContactContainer .Text {
+        width: 100%;
+    }
+    
+    .Contact .ContactContainer .Message {
+        padding-top: 3%;
+        width: 80%;
+        line-height: 45px;
+    } 
 }

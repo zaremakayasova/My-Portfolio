@@ -3,6 +3,13 @@
     padding-bottom: 20px;
 }
 
+.Projects p {
+    text-align: center;
+    padding-bottom: 2%;
+    color: #e57ee8;
+    font-size: 25px;
+}
+
 .Projects .ProjectsContent {
     display: flex;
     flex-direction: row;
@@ -11,13 +18,13 @@
     margin-bottom: 30px;
     margin-left: 200px;
     margin-right: 155px;
-    box-shadow: 0px 0px 5px 1px #ffffff;
+    box-shadow: 0px 0px 5px 1px #fbe3e5;
     border-radius: 10px;
 }
 
 .Projects .ProjectsContent:hover {
     transform: scale(1.1);
-    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    transition: transform 5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
 
 .Projects .ProjectsContent .Img {
@@ -46,16 +53,17 @@
     font-weight: 700;
     background: linear-gradient(90deg, rgba(82, 52, 64, 1) 0%, rgba(229, 126, 232, 1) 80%);
     border-radius: 10px;
+    transition: 2s;
 }
 
 .Projects .ProjectsContent .Container .Link:hover {
     background: linear-gradient(90deg, rgba(229, 126, 232, 1) 0%, rgba(82, 52, 64, 1) 80%);
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 .Projects .ProjectsContent .Container .gitHubLink {
     text-decoration: none;
-    color: #e39ee6;
+    color: #fbe3e5;
     font-size: 18px;
     font-weight: 300;
     padding-bottom: 15px;
@@ -70,6 +78,12 @@
 }
 
 @media (max-width: 1200px) {
+    .Projects p {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
     .Projects .ProjectsContent .Img {
         width: 95%;
         padding-left: unset;
@@ -93,7 +107,7 @@
         width: 18%;
         position: absolute;
         right: 5%;
-        top: 22%;
+        top: 25%;
         line-height: 30px;
         letter-spacing: 1px;
         font-size: 15px;

@@ -1,0 +1,30 @@
+.Footer {
+    height: 60px;
+    background-color: #343d52;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FooterIcons svg path {
+    cursor: pointer;
+}
+
+.Footer p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #f5babf;
+}
+
+@media (max-width: 1200px) {
+    .Footer {
+        padding: 10px;
+        height: 100px;
+        flex-direction: column;
+    }
+    .Footer p {
+        font-weight: 300;
+        font-size: 16px;
+        margin: unset;
+    }
+}

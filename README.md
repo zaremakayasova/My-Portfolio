@@ -7,12 +7,12 @@ This is my portfolio website. It contains information about me, my skill sets, h
 The application is hosted on netlify and can be accessed at the following web address: [https://adoring-chandrasekhar-1b2f83.netlify.app/](https://adoring-chandrasekhar-1b2f83.netlify.app/)
 
 
-## Tech Stack
+## Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- ReactJS, React Icons
+- React.js
+- Node.js
+- CSS3, React Icons
+- VsCode
 
 
 ## Run Locally
@@ -20,3 +20,4 @@ The application is hosted on netlify and can be accessed at the following web ad
 - Clone the repo
 - run 'npm install'
 - run 'npm start'
+- 0pen http://localhost:3000 to view it in the browser. 

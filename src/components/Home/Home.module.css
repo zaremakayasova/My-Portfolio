@@ -15,12 +15,13 @@
 .Home .Main {
     position: absolute;
     height: 100%;
-    top: -2%;
+    top: 5%;
     left: 50%;
 }
 
-.Home .Name {
-    font-size: 40px;
+.Home .Text {
+    font-size: 37px;
+    color: #f5babf;
 }
 
 .Home .Wave {
@@ -37,7 +38,7 @@
     }
     10% {
         transform: rotate(14deg);
-    } 
+    }
     20% {
         transform: rotate(-8deg);
     }
@@ -52,7 +53,7 @@
     }
     60% {
         transform: rotate(0deg);
-    } 
+    }
     100% {
         transform: rotate(0deg);
     }
@@ -61,7 +62,7 @@
 .Home h2 {
     font-size: 40px;
     padding-bottom: 10%;
-    color: #e2a8fe;
+    color: #f5babf;
 }
 
 .Home a {
@@ -85,10 +86,11 @@
     }
     .Home .Container {
         padding-top: unset;
+        padding-left: 6%;
     }
     .Home .Main {
         width: 100%;
-        top: 20%;
+        top: 23%;
         left: -3%;
     }
     .Home h2 {

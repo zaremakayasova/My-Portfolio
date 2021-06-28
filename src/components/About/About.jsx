@@ -11,7 +11,7 @@ const About = () => {
     };
     return (
         <div className={classes.AboutMe} id='about'>
-            <PageHeader title={'ABOUT ME'} icon={<FaUserAlt size='6%' />} />
+            <PageHeader title={'ABOUT ME'} icon={<FaUserAlt size='5%' />} />
             <div className={classes.Container}>
                 <div className={classes.Text}>
                     <h2>Hello! I am Zarema.</h2>
@@ -20,19 +20,19 @@ const About = () => {
                     <p>When I'm not coding, you can find me: </p>
                     <ul>
                         <li>
-                            <FaHandPointRight color='#fff' style={{ marginRight: '2%' }} />
+                            <FaHandPointRight color='#fbe3e5' style={{ marginRight: '2%' }} />
                             reading books,
                         </li>
                         <li>
-                            <FaHandPointRight color='#fff' style={{ marginRight: '2%' }} />
+                            <FaHandPointRight color='#fbe3e5' style={{ marginRight: '2%' }} />
                             cooking,
                         </li>
                         <li>
-                            <FaHandPointRight color='#fff' style={{ marginRight: '2%' }} />
+                            <FaHandPointRight color='#fbe3e5' style={{ marginRight: '2%' }} />
                             meditating,
                         </li>
                         <li>
-                            <FaHandPointRight color='#fff' style={{ marginRight: '2%' }} />
+                            <FaHandPointRight color='#fbe3e5' style={{ marginRight: '2%' }} />
                             hiking and exploring nature with my husband.
                         </li>
                     </ul>

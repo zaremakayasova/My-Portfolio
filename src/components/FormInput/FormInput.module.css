@@ -14,9 +14,3 @@
 .FormInputContainer {
     position: relative;
 }
-
-.InputLabel {
-    position: absolute;
-    top: 25px;
-    left: 10px;
-}

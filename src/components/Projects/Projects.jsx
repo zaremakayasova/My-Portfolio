@@ -8,7 +8,8 @@ const Projects = () => {
 
     return (
         <div className={classes.Projects} id='projects'>
-            <PageHeader title={'MY RECENT PROJECTS'} icon={<FaProjectDiagram size='6%' />} />
+            <PageHeader title={'MY RECENT PROJECTS'} icon={<FaProjectDiagram size='5%' />} />
+            <p>Here are a few projects I've worked on recently.</p>
             {
                 projects.map(project => (
                     <div key={project.id} className={classes.ProjectsContent}>

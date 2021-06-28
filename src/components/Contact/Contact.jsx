@@ -1,4 +1,4 @@
-import { FaInstagramSquare, FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
+import { FaMailBulk } from "react-icons/fa";
 import emailjs from 'emailjs-com';
 import classes from './Contact.module.css';
 import PageHeader from '../PageHeader/PageHeader';
@@ -6,10 +6,6 @@ import PageHeader from '../PageHeader/PageHeader';
 import FormInput from "../FormInput/FormInput";
 
 const Contact = () => {
-    const handleUrl = url => {
-        return () => window.open(url, '_blank')
-    };
-
     const handleSubmit = e => {
         e.preventDefault();
 
@@ -25,27 +21,27 @@ const Contact = () => {
 
     return (
         <div className={classes.Contact} id='contact'>
-            <PageHeader title={'CONTACT ME'} icon={<FaMailBulk size='6%' />} />
-            <div className={classes.FormContainer}>
-                <form className={classes.Form} onSubmit={handleSubmit}>
-                    <FormInput type='text' name='name' placeholder='name *' />
-                    <FormInput type='email' name='email' placeholder='email *' />
-                    <FormInput type='text' name='subject' placeholder='subject *' />
-                    <textarea name='message' placeholder='message *' required />
-                    <button className={classes.Btn} type='submit'>SEND</button>
-                </form>
-            </div>
-
-            <div className={classes.ContactIcons}>
-                <FaLinkedin color='#ffffff' size='40px' style={{ margin: '25px' }}
-                    onClick={handleUrl('https://www.linkedin.com/in/zarema-kayasova-83b033203/')}
-                />
-                <FaGithub color='#ffffff' size='40px' style={{ margin: '25px' }}
-                    onClick={handleUrl('https://github.com/zaremakayasova')}
-                />
-                <FaInstagramSquare color='#ffffff' size='40px' style={{ margin: '25px' }}
-                    onClick={handleUrl('https://www.instagram.com/zarema_kayasova_hekimgil/?hl=en')}
-                />
+            <PageHeader title={'CONTACT ME'} icon={<FaMailBulk size='5%' />} />
+            <div className={classes.ContactContainer}>
+                <div className={classes.FormContainer}>
+                    <h2>Send A Message</h2>
+                    <hr />
+                    <form className={classes.Form} onSubmit={handleSubmit}>
+                        <FormInput type='text' name='name' placeholder='name *' />
+                        <FormInput type='email' name='email' placeholder='email *' />
+                        <FormInput type='text' name='subject' placeholder='subject *' />
+                        <textarea name='message' placeholder='message *' required />
+                        <button className={classes.Btn} type='submit'>SEND</button>
+                    </form>
+                </div>
+                <div className={classes.Text}>
+                    <h2>Get in Touch</h2>
+                    <hr />
+                    <div className={classes.Message}>
+                        <p>Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.
+                            Simply fill the form and send me an email.<span className={classes.Wave}>🙋🏻</span></p>
+                    </div>
+                </div>
             </div>
         </div>
     );
