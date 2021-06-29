@@ -67,6 +67,7 @@
 .Contact .ContactContainer .FormContainer .Form .Btn:hover {
     background: linear-gradient(180deg, rgba(15, 5, 0, 1) 21%, rgba(229, 126, 232, 1) 100%);
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .Contact .ContactContainer .Text {

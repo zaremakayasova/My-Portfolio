@@ -17,7 +17,7 @@ The application is hosted on netlify and can be accessed at the following web ad
 
 ## Run Locally
 
-- Clone the repo
+- clone the repo
 - run 'npm install'
 - run 'npm start'
-- 0pen http://localhost:3000 to view it in the browser. 
+- open http://localhost:3000 to view it in the browser. 
