@@ -7,7 +7,7 @@ import PageHeader from '../PageHeader/PageHeader';
 const Projects = () => {
 
     return (
-        <div className={classes.Projects}>
+        <div className={classes.Projects} id='projects'>
             <PageHeader title={'MY RECENT PROJECTS'} icon={<FaProjectDiagram size='5%' />} />
             <p>Check Out My Latest Projects.</p>
             <hr className={classes.Line} />
