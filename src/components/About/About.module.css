@@ -105,7 +105,7 @@
 @media (max-width: 1200px) {
     .AboutMe {
         padding-bottom: 18%;
-        height: 1100px;
+        height: 1200px;
     }
     .AboutMe .Container {
         flex-direction: column;
