@@ -5,9 +5,15 @@
 
 .Projects p {
     text-align: center;
-    padding-bottom: 2%;
     color: #e57ee8;
     font-size: 25px;
+}
+
+.Projects .Line {
+    width: 150px;
+    border: 1px solid #e57ee8;
+    background-color: #e57ee8;
+    margin-bottom: 3%;
 }
 
 .Projects .ProjectsContent {
@@ -79,26 +85,30 @@
 }
 
 @media (max-width: 1200px) {
-    .Projects p {
-        font-size: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-    }
-    .Projects .ProjectsContent .Img {
-        width: 95%;
-        padding-left: unset;
-        padding-top: 5%;
-    }
     .Projects .ProjectsContent {
         flex-direction: column;
         width: 85%;
         height: 450px;
         margin-bottom: 8%;
-        margin-left: 4%;
-        padding: 1%;
+        margin-left: 5.5%;
+        padding: 2%;
         box-shadow: 0px 0px 5px 1px #ffffff;
         border-radius: 10px;
+    }
+    .Projects p {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .Projects .Line {
+        width: 70px;
+        border: 0.5px solid #e57ee8;
+        background-color: #e57ee8;
+        margin-bottom: 5%;
+    }
+    .Projects .ProjectsContent .Img {
+        width: 95%;
+        padding-left: unset;
+        padding-top: 5%;
     }
     .Projects .ProjectsContent .Container {
         width: 90%;

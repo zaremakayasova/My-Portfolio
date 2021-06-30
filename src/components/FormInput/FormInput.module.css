@@ -11,6 +11,6 @@
     box-shadow: 0 6px 6px -6px #ffffff;
 }
 
-.FormInputContainer {
-    position: relative;
+@media (max-width: 1200px) {
+
 }

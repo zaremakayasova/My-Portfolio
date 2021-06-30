@@ -6,6 +6,9 @@ const Home = () => {
 
     return (
         <div className={classes.Home} id='home'>
+            <div className={classes.Stars} />
+            <div className={classes.Stars2} />
+            <div className={classes.Stars3} />
             <div className={classes.Container}>
                 <h1 className={classes.Text}>Hi There! <span className={classes.Wave}>🖐🏻</span></h1>
                 <h2>I'M ZAREMA KAYASOVA</h2>

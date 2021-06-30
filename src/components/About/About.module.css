@@ -16,6 +16,7 @@
     width: 47%;
     margin-top: 2%;
     margin-left: 10%;
+    margin-right: 7%;
 }
 
 .AboutMe .Container .Text ul {
@@ -31,10 +32,6 @@
 }
 
 .AboutMe .Container .Photo {
-    position: absolute;
-    top: 160%;
-    left: 75%;
-    transform: translate(-50%, -50%);
     width: 400px;
     height: 550px;
     transform-style: preserve-3d;
@@ -116,8 +113,12 @@
     .AboutMe .Container .Text {
         width: 80%;
     }
+    .AboutMe .Container .Photo {
+        margin-left: 10%;
+        width: 300px;
+        height: 400px;
+    }
     .AboutMe .Container .Photo .Me {
-        width: 100%;
         height: 100%;
     }
     .AboutMe .Container h2 {
@@ -125,10 +126,5 @@
     }
     .AboutMe .Container .Photo .Back .MyPic {
         width: 50px;
-    }
-    .AboutMe .Container .Photo {
-        transform: translate(-81%, 45%);
-        width: 300px;
-        height: 400px;
     }
 }

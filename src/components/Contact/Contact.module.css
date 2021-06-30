@@ -122,10 +122,11 @@
 @media (max-width: 1200px) {
     .Contact .ContactContainer {
         flex-direction: column;
-    } 
+    }
     .Contact .ContactContainer h2 {
         font-weight: 500;
         font-size: 25px;
+        margin-top: 10%;
     }
     .Contact .ContactContainer hr {
         width: 70px;
@@ -137,10 +138,10 @@
     .Contact .ContactContainer .Text {
         width: 100%;
     }
-    
     .Contact .ContactContainer .Message {
         padding-top: 3%;
         width: 80%;
         line-height: 45px;
-    } 
+        margin-left: 5%;
+    }
 }
