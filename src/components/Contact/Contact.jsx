@@ -27,10 +27,10 @@ const Contact = () => {
                     <h2>Send A Message</h2>
                     <hr />
                     <form className={classes.Form} onSubmit={handleSubmit}>
-                        <FormInput type='text' name='name' placeholder='name *' />
-                        <FormInput type='email' name='email' placeholder='email *' />
-                        <FormInput type='text' name='subject' placeholder='subject *' />
-                        <textarea name='message' placeholder='message *' required />
+                        <FormInput type='text' name='name' placeholder='Name *' />
+                        <FormInput type='email' name='email' placeholder='Email *' />
+                        <FormInput type='text' name='subject' placeholder='Subject *' />
+                        <textarea name='message' placeholder='Message *' required />
                         <button className={classes.Btn} type='submit'>SEND</button>
                     </form>
                 </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                     <hr />
                     <div className={classes.Message}>
                         <p>Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.
-                            Simply fill the form and send me an email.<span className={classes.Wave}>🙋🏻</span></p>
+                            Simply fill out the form and send me an email.<span className={classes.Wave}>🙋🏻</span></p>
                     </div>
                 </div>
             </div>

@@ -87,7 +87,7 @@ const Skills = () => {
             <PageHeader title={'WHAT ABOUT THE SKILLS?'} icon={<FaTools size='5%' />} />
             <p> I'm a lifelong learner and I enjoy learning new technologies!</p>
             <p>
-                Below are some programming languages, frameworks, libraries and toolkits I worked with and I like.
+                Below are some programming languages, frameworks, libraries and toolkits I work with and I like.
                 Some of them I control better than the others.
             </p>
             <div className={classes.Container}>

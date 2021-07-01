@@ -1,7 +1,8 @@
 import Crwn from '../../assets/crwn-clothing.png';
 import Utopia from '../../assets/utopia-camps.png';
 import Hatchways from '../../assets/hatchways.png';
-import BookStore from '../../assets/bookstore.png';;
+import BookStore from '../../assets/bookstore.png';
+import Bakery from '../../assets/bakery.png';
 
 
 const projects = [
@@ -36,6 +37,14 @@ const projects = [
         description: 'Front-end coding assessment built with ReactJS and React Hooks.',
         githubUrl: 'https://github.com/zaremakayasova/Hatchways-Front-End-Coding-Assessment',
         liveUrl: 'https://elated-yonath-f3d196.netlify.app/'
+    },
+    {
+        id: 5,
+        image: Bakery,
+        title: 'GOLDEN FLOUR BAKERY',
+        description: 'Bakery website built with HTML5, CSS3 and Bootstrap 5.',
+        githubUrl: 'https://github.com/zaremakayasova/Golden-Flour-Bakery',
+        liveUrl: 'https://serene-euler-803181.netlify.app/'
     }
 ];
 

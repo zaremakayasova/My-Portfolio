@@ -21,19 +21,19 @@ const About = () => {
                     <ul>
                         <li>
                             <FaHandPointRight color='#fbe3e5' style={{ marginRight: '2%' }} />
-                            reading books,
+                            reading books
                         </li>
                         <li>
                             <FaHandPointRight color='#fbe3e5' style={{ marginRight: '2%' }} />
-                            cooking,
+                            cooking
                         </li>
                         <li>
                             <FaHandPointRight color='#fbe3e5' style={{ marginRight: '2%' }} />
-                            meditating,
+                            meditating
                         </li>
                         <li>
                             <FaHandPointRight color='#fbe3e5' style={{ marginRight: '2%' }} />
-                            hiking and exploring nature with my husband.
+                            hiking and exploring nature with my partner
                         </li>
                     </ul>
                 </div>

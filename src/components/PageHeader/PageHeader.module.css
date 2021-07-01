@@ -26,7 +26,10 @@
 
 @media (max-width: 1200px) {
     .Container hr {
-        width: 10px;
+        display: none;
+    }
+    .Container h1 {
+        width: 90%;
     }
     .Container {
         padding-bottom: 20px;
