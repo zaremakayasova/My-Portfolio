@@ -1,4 +1,5 @@
 import Crwn from '../../assets/crwn-clothing.png';
+import Margarita from '../../assets/margarita.png';
 import Utopia from '../../assets/utopia-camps.png';
 import Hatchways from '../../assets/hatchways.png';
 import BookStore from '../../assets/bookstore.png';
@@ -16,6 +17,14 @@ const projects = [
     },
     {
         id: 2,
+        image: Margarita,
+        title: 'MARGARITA-HOTEL',
+        description: 'A beach resort website project built with React, using Redux and React Hooks for state management and React Router DOM for routing.',
+        githubUrl: 'https://github.com/zaremakayasova/Margarita-Hotel',
+        liveUrl: 'https://peaceful-beaver-c859f3.netlify.app/'
+    },
+    {
+        id: 3,
         image: Utopia,
         title: 'UTOPIA CAMPS',
         description: 'Full-stack web application built with Node.js, Express.js, MongoDB, EJS, Bootstrap.',
@@ -23,7 +32,7 @@ const projects = [
         liveUrl: 'https://boiling-taiga-61964.herokuapp.com/'
     },
     {
-        id: 3,
+        id: 4,
         image: BookStore,
         title: 'BOOKSTORE APP',
         description: 'A Bookstore App built with ReactJS, using Redux and React Hooks for state management.',
@@ -31,7 +40,7 @@ const projects = [
         liveUrl: 'https://zaremakayasova.github.io/Bookstore-App/'
     },
     {
-        id: 4,
+        id: 5,
         image: Hatchways,
         title: 'HATCHWAYS ASSESSMENT',
         description: 'Front-end coding assessment built with ReactJS and React Hooks.',
@@ -39,7 +48,7 @@ const projects = [
         liveUrl: 'https://elated-yonath-f3d196.netlify.app/'
     },
     {
-        id: 5,
+        id: 6,
         image: Bakery,
         title: 'GOLDEN FLOUR BAKERY',
         description: 'Bakery website built with HTML5, CSS3 and Bootstrap 5.',
